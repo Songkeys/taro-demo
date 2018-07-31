@@ -4,13 +4,7 @@ import Comp from '../comp/comp'
 
 export default class Index extends Component {
   state = {
-    list: [],
-  }
-
-  componentDidMount() {
-    this.setState({
-      list: [1,2,3],
-    })
+    list: [1,2,3],
   }
 
   render() {
